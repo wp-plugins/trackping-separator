@@ -19,14 +19,6 @@ Trackping Separator, by its name, is a WordPress Plugin that could separate trac
 
 == Frequently Asked Questions ==
 
-= How can I display the number of comments and number of trackback/pingbacks? =
-
-To display number of comments only, paste the following code: 
-`<?php comments_only_number('0', '1', '%'); ?>`
-
-To display trackback/pingbacks only, paste the following: 
-`<?php echo trackpings('count'); ?>`
-
 = How can I display the date for each trackback/pingback? =
 
 Use the variable %date in listtrackback() template function. There's an extra parameter for the function to specify the date format. For example, if you want to display the date in the trackping loop, the function call should be:
