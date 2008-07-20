@@ -1,6 +1,6 @@
-=== TinyMCEComments ===
+=== Trackping Separator ===
 Contributors: mk_is_here
-Donate link: http://mk.netgenes.org/my-plugins/mcecomments/
+Donate link: http://mk.netgenes.org/my-plugins/
 Tags: comments, trackback, pingback 
 Requires at least: 1.5
 Tested up to: 2.6.0
