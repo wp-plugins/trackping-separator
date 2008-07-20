@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Trackping Separator
-Version: 2.0
+Version: 2.0.1
 Plugin URI: http://mk.netgenes.org/wiki/Trackping_Separator
 Description: This plugin provide useful template functions to separate trackbacks and pingbacks from comments. Modified from <a href="http://www.meyerweb.com/eric/tools/wordpress/mw_comments_trackbacks.html">MW Comments/Trackbacks</a>
 Author: Thomas Au (MK)
@@ -59,7 +59,7 @@ function listtrackpings($type = 'both', $template='<li id="trackback-%id"><a hre
 }
 
 function isComment($comment){
-    return $comment->comment_type != 'trackback' || $comment->comment_type != 'pingback';
+    return $comment->comment_type != 'trackback' && $comment->comment_type != 'pingback';
 }
 
 function filter_trackpings($comments, $postId) {
