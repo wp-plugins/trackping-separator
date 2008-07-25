@@ -70,4 +70,3 @@ add_filter('get_comments_number', 'get_comment_only_number', 1, 0);
 add_filter('comments_array', 'filter_trackpings', 1, 2);
 
 ?>
-
